@@ -17,7 +17,7 @@ def pogoda(message):
         print(d)
 
         if d.get("cod") != 200:
-            bot.send_message(message.chat.id, "❗ Ob-havo ma'lumotini olishda xatolik!")
+            bot.send_message(message.chat.id, "Obhavo hato buldi")
             return
 
         t = d["main"]["temp"]
