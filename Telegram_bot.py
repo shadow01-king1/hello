@@ -34,6 +34,6 @@ def pogoda(message):
         bot.send_message(message.chat.id, text)
 
     except Exception as e:
-        bot.send_message(message.chat.id, "⚠ Xatolik yuz berdi. Keyinroq urinib ko‘ring.")
+        bot.send_message(message.chat.id, "Xatolik yuz berdi. Keyinroq urinib ko‘ring.")
 
 bot.infinity_polling()
